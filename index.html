@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rsschool-cv-html</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container-centered">
+    <div class="two-columns">
+      <div class="left-column">
+        <header>
+          <img src="./images/Portrait.jpg" alt="Portrait" width="204" height="204">
+          <h1>Armanuly Nur</h1>
+          <h2>Junior Frontend Developer</h2>
+        </header>
+        <main>
+          <section class="contacts">
+            <h3>Contacts</h3>
+            <ul>
+              <li>
+                <img src="./icons/phone.svg" alt="Phone Icon" width="30" height="30">
+                <p>+7 747 606 6546</p>
+              </li>
+              <li>
+                <img src="./icons/email.svg" alt="Email Icon" width="30" height="30">
+                <p>nur.2002228@gmail.com</p>
+              </li>
+              <li>
+                <img src="./icons/telegram.svg" alt="Telegram Icon" width="30" height="30">
+                <p>@IceAllManGoal</p>
+              </li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML5, CSS3</li>
+              <li>JavaScript Basics</li>
+              <li>Git, GitHub</li>
+              <li>VS Code</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>
+                <p class="language-name">English</p>
+                <p>Upper-intermediate</p>
+              </li>
+              <li>
+                <p class="language-name">Kazakh</p>
+                <p>Native</p>
+              </li>
+              <li>
+                <p class="language-name">Russian</p>
+                <p>Native</p>
+              </li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <aside class="right-column">
+        <section class="about-myself">
+          <div class="sub-header">
+            <img src="./icons/myself.svg" alt="About Myself Icon" width="30" height="30">
+            <h3>About Myself</h3>
+          </div>
+          <p>I started my career as a programmer in 2018, starting to study the development of websites and programs for the first time.</p>
+          <p>As a child, I was very interested in games and I kept thinking how to create them. In the 8th grade, he began to get involved in creating simple programs and websites. In 2019, he entered the college of TSATEK and began to delve into programming. At the moment I am still studying this and in the future I want to work in this specialty.</p>
+          <p>I believe that I can become a good specialist in creating software</p>
+        </section>
+        <section class="education">
+          <div class="sub-header">
+            <img src="./icons/education.svg" alt="Education Icon" width="30" height="30">
+            <h3>Education</h3>
+          </div>
+          <p><strong>Central Asian Technical and Economic College</strong></p>
+          <p>Technician programmer</p>
+          <p>Years: 2019-2023</p>
+          <p>Computer technology and software</p>
+        </section>
+        <section class="courses">
+          <div class="sub-header">
+            <img src="./icons/courses.svg" alt="Courses" width="30" height="30">
+            <h3>Courses</h3>
+          </div>
+          <ul>
+            <li>HTML and CSS Tutorials htmlacademy.ru  </li>
+            <li>JavaScript Manual on htmlacademy.ru</li>
+        </section>
+        <section class="code-example">
+          <div class="sub-header">
+            <img src="./icons/code.svg" alt="Code Icon" width="30" height="30">
+            <h3>Code example</h3>
+          </div>
+          <p><strong>Peak array index KATA from CODEWARS:</strong> Given two integers a and b, which can be positive or negative, find the sum of all the integers between and including them and return it. If the two numbers are equal return a or b.</p>
+          <pre>
+            <code>
+              function getSum( a,b )
+              {
+                var startindex = a > b ? b : a;
+              var endindex = a > b ? a : b;
+              
+              var result = 0;
+              for(var i = startindex; i <=  endindex; i++) {
+              result = result + i;
+              }
+              return result;
+              }
+  return -1;
+}</code>
+          </pre>
+        </section>
+      </aside>
+    </div>
+    <footer>
+      <a class="my-github" href="https://github.com/AnnaVoloshina">
+        <img class="github-icon" src="./icons/github.svg" alt="Github Icon" width="26" height="26">
+        <p>Visit my GitHub</p>
+      </a>
+      <p>© 2021</p>
+      <a href="https://rs.school/js/">
+        <img src="./icons/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+      </a>
+    </footer>
+  </div>
+</body>
+
+</html>
